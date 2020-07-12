@@ -1,10 +1,13 @@
 import '../css/componentes.css'
 
 
-export const saludar = (nombre) => {
-    console.log("Creando etiqueta h1");
-    const h1 = document.createElement('h1');
-    h1.innerText = `Hola ${nombre} Bienvenido`;
-    document.body.append(h1);
+const saludar = (nombre) => {
+    console.log(`Hola ${nombre}`);
 }
+
+const wolverine = {
+    nombre: 'Logan'
+};
+
+saludar();
 
